@@ -4,29 +4,21 @@ import Navbar from '../components/Navbar';
 export default function Documentos() {
   const [selectedPdf, setSelectedPdf] = useState(null);
 
-  // Lista de PDFs disponibles
+  // Lista de PDFs disponibles (basado en tu carpeta actual)
   const pdfs = [
-    {
-      id: 1,
-      title: "Introducción a la Explicabilidad en NLP",
-      description: "Conceptos básicos y fundamentos teóricos",
-      filename: "intro-explicabilidad-nlp.pdf",
-      size: "2.5 MB"
-    },
-    {
-      id: 2,
-      title: "Técnicas LIME para Modelos de Texto",
-      description: "Implementación práctica de LIME en NLP",
-      filename: "lime-nlp-tutorial.pdf",
-      size: "1.8 MB"
-    },
-    {
-      id: 3,
-      title: "SHAP en Transformers",
-      description: "Aplicación de SHAP en modelos BERT y GPT",
-      filename: "shap-transformers.pdf",
-      size: "3.2 MB"
-    }
+    { id: 1, title: "Actividad Clase 6", filename: "Actividad_clase_6.pdf" },
+    { id: 2, title: "Evaluación Calidad Software", filename: "Evaluacion_calidad_Software.pdf" },
+    { id: 3, title: "Geovanny Basantes - Metodologías de Desarrollo", filename: "Geovanny_Basantes_Metodologías_de_Desarrollo.pdf" },
+    { id: 4, title: "Grupo 2", filename: "Grupo2.pdf" },
+    { id: 5, title: "Metodología Kanban", filename: "Metodología_kanban.pdf" },
+    { id: 6, title: "Métricas de Productividad - Desarrollador", filename: "Métricas_de_Productividad_Desarrollador.pdf" },
+    { id: 7, title: "Métricas Productividad Rendimiento Aplicado", filename: "Métricas_Productividad_rendimiento_aplicado.pdf" },
+    { id: 8, title: "Métricas de Productividad", filename: "Métricas_Productividad.pdf" },
+    { id: 9, title: "Métricas Usabilidad Defectos", filename: "Métricas_Usabilidad_defectos.pdf" },
+    { id: 10, title: "Paradigmas de Programación", filename: "Paradigmas_programación.pdf" },
+    { id: 11, title: "Preguntas Kanban", filename: "Preguntas_Kanban.pdf" },
+    { id: 12, title: "Taller No. 1 - Métricas", filename: "TallerNo1-metricas[1].pdf" },
+    { id: 13, title: "Taller No. 2 - MCall", filename: "TallerNo2-MCall[1].pdf" },
   ];
 
   return (
@@ -47,24 +39,20 @@ export default function Documentos() {
                   <div key={pdf.id} className="card mb-3">
                     <div className="card-body p-3">
                       <h6 className="card-title">{pdf.title}</h6>
-                      <p className="card-text small">{pdf.description}</p>
                       <div className="d-flex justify-content-between align-items-center">
-                        <small className="text-muted">{pdf.size}</small>
-                        <div>
-                          <button 
-                            className="btn btn-sm btn-primary me-2"
-                            onClick={() => setSelectedPdf(pdf.filename)}
-                          >
-                            👁️ Ver
-                          </button>
-                          <a 
-                            href={`/pdfs/${pdf.filename}`} 
-                            download
-                            className="btn btn-sm btn-outline-secondary"
-                          >
-                            ⬇️ Descargar
-                          </a>
-                        </div>
+                        <button 
+                          className="btn btn-sm btn-primary me-2"
+                          onClick={() => setSelectedPdf(pdf.filename)}
+                        >
+                          👁️ Ver
+                        </button>
+                        <a 
+                          href={`/pdfs/${pdf.filename}`} 
+                          download
+                          className="btn btn-sm btn-outline-secondary"
+                        >
+                          ⬇️ Descargar
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -100,14 +88,14 @@ export default function Documentos() {
                   >
                     <p>Tu navegador no soporta la visualización de PDFs. 
                        <a href={`/pdfs/${selectedPdf}`} target="_blank" rel="noopener noreferrer">
-                         Haz clic aquí para descargar el PDF
+                         Haz clic aquí para abrir el PDF
                        </a>
                     </p>
                   </iframe>
                 ) : (
                   <div className="d-flex align-items-center justify-content-center h-100 text-muted">
                     <div className="text-center">
-                      <i className="bi bi-file-earmark-pdf" style={{ fontSize: '4rem' }}></i>
+                      <div style={{ fontSize: '4rem' }}>📄</div>
                       <p className="mt-3">Selecciona un documento para visualizarlo</p>
                     </div>
                   </div>
