@@ -16,10 +16,10 @@ export default function Documentos() {
       { id: 8, title: "Métricas Defectos", filename: "Metricas_defectos.pdf" },
       { id: 9, title: "Métricas Productividad - Desarrollador", filename: "Metricas_Productividad_Desarrollador.pdf" },
       { id: 10, title: "Métricas Productividad", filename: "Metricas_Productividad.pdf" },
-      { id: 11, title: "Métricas Rendimiento Software", filename: "Métricas_rendimiento_software.pdf" },
+      { id: 11, title: "Métricas Rendimiento Software", filename: "Metricas_rendimiento_software.pdf" },
       { id: 12, title: "Métricas Usabilidad", filename: "Metricas_Usabilidad.pdf" },
-      { id: 13, title: "Taller 1 en clase", filename: "Taller 1 en clase.pdf" },
-      { id: 14, title: "Taller Grupal: Paradigmas de la Programación", filename: "Taller Grupal. Paradigmas de la Programación.pdf" },
+      { id: 13, title: "Taller 1", filename: "Taller_1.pdf" },
+      { id: 14, title: "Paradigmas de la Programación", filename: "Paradigmas_Programacion.pdf" },
     ];
     
 
