@@ -14,7 +14,7 @@ export default function Documentos() {
     { id: 6, title: "Métricas Productividad - Desarrollador", filename: "Metricas_de_Productividad_Desarrollador.pdf" },
     { id: 7, title: "Métricas Productividad Rendimiento Aplicado", filename: "Metricas_Productividad_rendimiento_aplicado.pdf" },
     { id: 8, title: "Métricas de Productividad", filename: "Métricas_Productividad.pdf" },
-    { id: 9, title: "Métricas Usabilidad Defectos", filename: "Metricas_Usabilidad_defectos.pdf" },
+    { id: 9, title: "Métricas Usabilidad Defectos", filename: "Metricas_Usabilidad.pdf" },
     { id: 10, title: "Paradigmas de Programación", filename: "Paradigmas_programación.pdf" },
     { id: 11, title: "Preguntas Kanban", filename: "Preguntas_Kanban.pdf" },
     { id: 12, title: "Taller No. 1 - Métricas", filename: "TallerNo1-metricas[1].pdf" },
