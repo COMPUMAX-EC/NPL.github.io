@@ -11,7 +11,7 @@ export default function Documentos() {
     { id: 3, title: "Metodologías de Desarrollo", filename: "Metodologías_Desarrollo.pdf" },
     { id: 4, title: "Grupo", filename: "Grupo.pdf" },
     { id: 5, title: "Metodología Kanban", filename: "Metodología_kanban.pdf" },
-    { id: 6, title: "Métricas Productividad - Desarrollador", filename: "Metricas_de_Productividad_Desarrollador.pdf" },
+    { id: 6, title: "Métricas Productividad - Desarrollador", filename: "Metricas_Productividad_Desarrollador.pdf" },
     { id: 7, title: "Métricas Productividad Rendimiento Aplicado", filename: "Metricas_Productividad_rendimiento_aplicado.pdf" },
     { id: 8, title: "Métricas de Productividad", filename: "Métricas_Productividad.pdf" },
     { id: 9, title: "Métricas Usabilidad Defectos", filename: "Metricas_Usabilidad.pdf" },
