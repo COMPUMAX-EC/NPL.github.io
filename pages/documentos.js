@@ -8,7 +8,7 @@ export default function Documentos() {
   const pdfs = [
     { id: 1, title: "Actividad Clase 6", filename: "Actividad_clase_6.pdf" },
     { id: 2, title: "Evaluación Calidad Software", filename: "Evaluacion_calidad_Software.pdf" },
-    { id: 3, title: "Geovanny Basantes - Metodologías de Desarrollo", filename: "Geovanny_Basantes_Metodologías_de_Desarrollo.pdf" },
+    { id: 3, title: "Metodologías de Desarrollo", filename: "Metodologías_de_Desarrollo.pdf" },
     { id: 4, title: "Grupo2", filename: "Grupo2.pdf" },
     { id: 5, title: "Metodología Kanban", filename: "Metodología_kanban.pdf" },
     { id: 6, title: "Métricas Productividad - Desarrollador", filename: "Metricas_de_Productividad_Desarrollador.pdf" },
