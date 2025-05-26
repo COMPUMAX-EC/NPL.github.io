@@ -6,20 +6,22 @@ export default function Documentos() {
 
   // Lista de PDFs disponibles (basado en tu carpeta actual)
   const pdfs = [
-    { id: 1, title: "Actividad Clase 6", filename: "Actividad_clase_6.pdf" },
-    { id: 2, title: "Evaluación Calidad Software", filename: "Evaluacion_calidad_Software.pdf" },
-    { id: 3, title: "Metodologías de Desarrollo", filename: "Metodologías_Desarrollo.pdf" },
-    { id: 4, title: "Grupo", filename: "Grupo.pdf" },
-    { id: 5, title: "Metodología Kanban", filename: "Metodología_kanban.pdf" },
-    { id: 6, title: "Métricas Productividad - Desarrollador", filename: "Metricas_Productividad_Desarrollador.pdf" },
-    { id: 7, title: "Métricas Productividad Rendimiento Aplicado", filename: "Métricas_rendimiento_software.pdf" },
-    { id: 8, title: "Métricas de Productividad", filename: "Métricas_Productividad.pdf" },
-    { id: 9, title: "Métricas Usabilidad Defectos", filename: "Metricas_Usabilidad.pdf" },
-    { id: 10, title: "Paradigmas de Programación", filename: "Paradigmas_programación.pdf" },
-    { id: 11, title: "Preguntas Kanban", filename: "Preguntas_Kanban.pdf" },
-    { id: 12, title: "Taller No. 1 - Métricas", filename: "TallerNo1-metricas[1].pdf" },
-    { id: 13, title: "Taller No. 2 - MCall", filename: "TallerNo2-MCall[1].pdf" },
-  ];
+      { id: 1, title: "Actividad Clase 6", filename: "Actividad_clase_6.pdf" },
+      { id: 2, title: "Evaluación Calidad Software", filename: "Evaluacion_calidad_Software.pdf" },
+      { id: 3, title: "Grupo", filename: "Grupo.pdf" },
+      { id: 4, title: "ISO 9001 y CMMI", filename: "ISO 9001 y CMMI.pdf" },
+      { id: 5, title: "Metodología RUP", filename: "Metodología RUP.pdf" },
+      { id: 6, title: "Metodologías Scrum, XP, Kanban", filename: "Metodologías Scrum, XP, Kanban.pdf" },
+      { id: 7, title: "Metodologías de Desarrollo", filename: "Metodologías_Desarrollo.pdf" },
+      { id: 8, title: "Métricas Defectos", filename: "Metricas_defectos.pdf" },
+      { id: 9, title: "Métricas Productividad - Desarrollador", filename: "Metricas_Productividad_Desarrollador.pdf" },
+      { id: 10, title: "Métricas Productividad", filename: "Metricas_Productividad.pdf" },
+      { id: 11, title: "Métricas Rendimiento Software", filename: "Métricas_rendimiento_software.pdf" },
+      { id: 12, title: "Métricas Usabilidad", filename: "Metricas_Usabilidad.pdf" },
+      { id: 13, title: "Taller 1 en clase", filename: "Taller 1 en clase.pdf" },
+      { id: 14, title: "Taller Grupal: Paradigmas de la Programación", filename: "Taller Grupal. Paradigmas de la Programación.pdf" },
+    ];
+    
 
   return (
     <>
