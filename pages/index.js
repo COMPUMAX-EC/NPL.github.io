@@ -65,7 +65,7 @@ export default function Home() {
             <p className="card-text">
               ¿Tienes dudas o quieres colaborar? 
             </p>
-            <a href="mailto:tuemail@ejemplo.com" className="btn btn-primary">
+            <a href="antonyaupas14.2002@gmail.com" className="btn btn-primary">
               📧 Enviar email
             </a>
           </div>
